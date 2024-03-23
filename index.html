@@ -16,7 +16,10 @@
         // Add an event listener to the button
         document.getElementById("myButton").addEventListener("click", function() {
             // JavaScript function to perform the action when the button is clicked
-            alert("I LOVE YOU"); // Example action: Display an alert
+            var img = document.createElement("img");
+            img.src = "images/20000101053038_IMG_1548.JPG"; // Replace "image_url_here" with the URL of your image
+            // Append the image to the HTML body
+            document.body.appendChild(img);
         });
     </script>
 </body>
